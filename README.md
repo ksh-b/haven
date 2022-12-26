@@ -2,6 +2,11 @@ Download entire wallpaper collections
 
 ## Installation
 No binaries available right now. Clone and build it yourself.
+```
+git clone https://github.com/ksh-b/haven.git
+cd haven
+cargo install --path .
+```
 
 ## Usage
 ```
