@@ -14,7 +14,6 @@ pub mod wh_collection;
 pub mod wh_collections;
 pub mod wh_search;
 
-/// Simple program to greet a person
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
@@ -34,7 +33,7 @@ struct Args {
 #[tokio::main]
 async fn main() {
     let client = Client::new();
-    let matches = Command::new("walrs")
+    let matches = Command::new("haven")
         .arg(Arg::new("user")
             .short('u')
             .required(false)
